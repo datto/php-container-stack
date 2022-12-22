@@ -1,0 +1,6 @@
+[Datto:Backports:NGINX_Modules]
+name=NGINX ${nginxversion} Modules for Enterprise Linux ${releasever}
+baseurl=https://download.opensuse.org/repositories/isv:/Datto:/Backports:/NGINX_Modules/Enterprise_Linux_${releasever}_nginx-${nginxversion}/
+gpgkey=https://download.opensuse.org/repositories/isv:/Datto:/Backports:/NGINX_Modules/Enterprise_Linux_${releasever}_nginx-${nginxversion}/repodata/repomd.xml.key
+gpgcheck=1
+enabled=1

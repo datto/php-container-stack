@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -eu
+
+echo "Running startup scripts..."
+
+find /usr/libexec/php-container/php-fpm/startup.d/ -name '*' -type f -print0 | sort -zn | xargs -0 -n1 -r -t 'sh' '-c'
+
+php-fpm -F

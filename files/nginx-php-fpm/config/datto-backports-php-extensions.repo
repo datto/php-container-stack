@@ -1,0 +1,6 @@
+[Datto:Backports:PHP_Extensions]
+name=PHP Modules for ${phpversion} for Enterprise Linux ${releasever}
+baseurl=https://download.opensuse.org/repositories/isv:/Datto:/Backports:/PHP_Extensions/Enterprise_Linux_${releasever}_php-${phpversion}/
+gpgkey=https://download.opensuse.org/repositories/isv:/Datto:/Backports:/PHP_Extensions/Enterprise_Linux_${releasever}_php-${phpversion}/repodata/repomd.xml.key
+gpgcheck=1
+enabled=1

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -eu
+
+cd /var/www/html/app
+XDEBUG_MODE=off APP_DEBUG=0 php bin/console cache:warmup --no-interaction
